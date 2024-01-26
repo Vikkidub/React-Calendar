@@ -1,6 +1,6 @@
 # React-Calendar
 
-Title: Calendar
+Title: Calendar. 
 Description: Making a calendar for scheduling or planning events. 
 
 Tech: React, Javascript, HTML and CSS.
