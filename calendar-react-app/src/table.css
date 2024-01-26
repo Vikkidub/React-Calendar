@@ -1,0 +1,8 @@
+table{
+    margin: 10% auto;
+    border: solid black 5px;
+}
+td{
+    border: solid black;
+    font-size: 36px;
+}
