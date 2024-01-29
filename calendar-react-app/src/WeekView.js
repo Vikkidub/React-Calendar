@@ -1,7 +1,5 @@
-import './table.css';
-
-function MonthView() {
-    var rows = 5; 
+function WeekView(){
+    var rows = 2; 
     var cols = 7; 
     var table = [];
 
@@ -18,4 +16,4 @@ function MonthView() {
     return table;
 }
 
-export default MonthView;
+export default WeekView;
