@@ -12,4 +12,4 @@ Setting up a React project with the Create React App method.
 Using the terminal to access directories and run npm to see the app in a browser.
 Exporting and importing files and functions.
 Identifying elements in a list using the 'key' attribute.
-Utilising React useState.
+Utilising React useState to render and update the display when toggling view functions
