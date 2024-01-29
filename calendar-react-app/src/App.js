@@ -9,7 +9,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome</h1>
       <header><GetMonth /></header>
       <table>{isMonthView ? <MonthView /> : <WeekView />}</table>
       <button onClick={() => setMonthView(!isMonthView)}>
