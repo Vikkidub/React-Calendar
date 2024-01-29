@@ -1,6 +1,6 @@
 import './table.css';
 
-function MonthView() {
+function monthView() {
     var rows = 5; 
     var cols = 7; 
     var table = [];
@@ -18,4 +18,4 @@ function MonthView() {
     return table;
 }
 
-export default MonthView;
+export default monthView;

@@ -1,19 +1,6 @@
-function WeekView(){
-    var rows = 2; 
-    var cols = 7; 
-    var table = [];
+import './table.css';
 
-    for (var i = 0; i < rows; i++) {
-        var cells = [];
-
-        for (var j = 1; j <= cols; j++) {
-            cells.push(<td key={j}>{i * cols + j}</td>);
-        }
-
-        table.push(<tr key={i}>{cells}</tr>);
-    }
-    
-    return table;
+function weekView(){
+    return <div>Test</div>
 }
-
-export default WeekView;
+export default weekView;
