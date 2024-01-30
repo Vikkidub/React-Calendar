@@ -12,16 +12,22 @@ function MonthView() {
     }
     table.push(<tr key={0}>{cells}</tr>);
   
+    const time = new Date();
+    var daysInMonth = new Date(time.getFullYear(), time.getMonth() + 1, 0).getDate();
+
     for (var i = 1; i < rows; i++) {
-      cells = [];
-      for (j = 0; j < cols; j++) {
-        cells.push(<td key={j}>{(i - 1) * cols + j + 1}</td>);
-      }
-      table.push(<tr key={i}>{cells}</tr>);
+        cells = [];
+        for (j = 0; j < cols; j++) {
+            var dayNumber = (i - 1) * cols + j + 1;
+
+            var displayValue = dayNumber <= daysInMonth ? dayNumber : '';
+            cells.push(<td key={j}>{displayValue}</td>);
+        }
+        table.push(<tr key={i}>{cells}</tr>);
     }
   
     return table;
   }
-  
+
   export default MonthView;
   

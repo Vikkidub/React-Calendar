@@ -1,14 +1,25 @@
-table{
-    margin: 10% auto;
-    border: solid black 5px;
+table {
+    border-collapse: collapse;
+    margin: 5% auto;
+    width: 1700px; 
+    table-layout: fixed;
+    border: solid black 2px;
     background-color: white;
 }
-td{
-    border: solid black;
+td {
+    border: 1px solid black;
     font-size: 36px;
+    width: 33.33%; 
+    box-sizing: border-box; 
 }
 
-input{
-    height: 75px;
-    margin-top: -200px;
+.schedulebox {
+    height: 242px;
+}
+textarea {
+    resize: none;
+    height: 242px;
+    width: 232px;
+    font-size: 20px;
+    border-color: transparent;
 }

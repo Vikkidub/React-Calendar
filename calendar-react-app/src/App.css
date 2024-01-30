@@ -1,22 +1,17 @@
 body{
-  background-color: black;
+  background-color: darkcyan;
 }
 .App {
   text-align: center;
-  background-color: darkcyan;
 }
 
 header{
-  position: absolute;
-  font-size: 50px;
-  margin-left: 875px;
-  margin-top: -100px;
+  font-size: 55px;
   color: white;
+  margin-top: 55px;
 }
 
 button{
-  position: absolute;
-  margin-left: -60px;
-  margin-top: -150px;
+  margin-top: -50px;
   height: 30px;
 }
