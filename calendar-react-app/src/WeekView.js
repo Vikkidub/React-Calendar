@@ -17,7 +17,7 @@ function WeekView() {
       for (j = 0; j < cols; j++) {
         cells.push(
           <td className="schedulebox" key={j}>
-            <textarea type="text" />
+            <textarea type="text" placeholder="Schedule upcoming work or activities"/>
           </td>
         );
       }
