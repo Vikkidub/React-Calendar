@@ -19,7 +19,7 @@ function WeekView() {
           <td className="schedulebox" key={j}>
             <textarea type="text" placeholder="Schedule upcoming work or activities"/>
           </td>
-        );
+        ); 
       }
       table.push(<tr key={i}>{cells}</tr>);
     }
